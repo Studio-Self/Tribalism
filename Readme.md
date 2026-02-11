@@ -62,32 +62,32 @@ Tribalism is a collection of 21 interconnected skills that give Claude deep expe
 ### CLI Install (Recommended)
 
 ```bash
-npx skills add joanWestenberg/tribalism
+npx skills add Studio-Self/Tribalism
 ```
 
 Install a single skill:
 
 ```bash
-npx skills add joanWestenberg/tribalism --skill community-strategy
+npx skills add Studio-Self/Tribalism --skill community-strategy
 ```
 
 List available skills:
 
 ```bash
-npx skills add joanWestenberg/tribalism --list
+npx skills add Studio-Self/Tribalism --list
 ```
 
 ### Clone and Copy
 
 ```bash
-git clone https://github.com/joanWestenberg/tribalism.git
-cp -r tribalism/skills/* .claude/skills/
+git clone https://github.com/Studio-Self/Tribalism.git
+cp -r Tribalism/Skills/* .claude/skills/
 ```
 
 ### Git Submodule
 
 ```bash
-git submodule add https://github.com/joanWestenberg/tribalism.git .claude/tribalism
+git submodule add https://github.com/Studio-Self/Tribalism.git .claude/tribalism
 ```
 
 ## How Skills Work
